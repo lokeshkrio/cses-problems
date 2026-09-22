@@ -17,7 +17,7 @@ int main()
         }
         if (i > 1)
         {
-            cout << (long long)((i * i * (i - 1) * (i + 1)) / 2 - (4 * (i - 1) * (i - 2)));
+            cout << (long long)((i * i * (i * i - 1)) / 2 - (4 * (i - 1) * (i - 2)));
         }
         cout << "\n";
         i++;
